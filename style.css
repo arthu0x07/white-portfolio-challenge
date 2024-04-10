@@ -193,3 +193,71 @@ a {
 .about-container-content img {
   width: 140px;
 }
+
+/* Skills and Hobbies */
+
+.cards-outside-container {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards-container-content {
+  flex: 1;
+  max-width: 1136px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cards-title {
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 3.757rem;
+
+  text-align: center;
+
+  margin-top: 3.2rem;
+}
+
+#hobbies {
+  margin: 8.8rem 0;
+}
+
+.cards-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.6rem;
+
+  margin-top: 3.2rem;
+}
+
+.cards-box {
+  flex: 1;
+
+  width: 176px;
+  height: 176px;
+
+  background-color: #ffffff;
+
+  display: flex;
+  justify-content: start;
+  align-items: end;
+
+  padding: 0 0 1.6rem 1.6rem;
+}
+
+.cards-img {
+  width: 24px;
+  height: 37px;
+}
+
+.cards-name {
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 1.878rem;
+}
