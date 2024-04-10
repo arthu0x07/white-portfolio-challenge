@@ -156,3 +156,40 @@ a {
   width: 16px;
   object-fit: scale-down;
 }
+
+/* About */
+
+.about-outside-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eaf2fd;
+}
+
+.about-container-content {
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+
+  padding: 6.4rem 8rem;
+  max-width: 1136px;
+}
+
+.about-title {
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 3.757rem;
+}
+
+.about-paragraph {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.878rem;
+}
+
+.about-container-content img {
+  width: 140px;
+}
