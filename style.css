@@ -5,8 +5,12 @@
 }
 
 :root {
-  --cor-de-fundo: #f5f5f5;
-  --cor-de-link: #000;
+  --light-gray: #f5f5f5;
+  --black: #000;
+  --blue-light: #eaf2fd;
+  --white: #ffffff;
+  --blue: #2a7ae4;
+  --gray-light: #a2a2a2;
 }
 
 html {
@@ -164,7 +168,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #eaf2fd;
+  background-color: var(--blue-light);
 }
 
 .about-container-content {
@@ -242,7 +246,7 @@ a {
   width: 176px;
   height: 176px;
 
-  background-color: #ffffff;
+  background-color: var(--white);
 
   display: flex;
   justify-content: start;
@@ -271,7 +275,7 @@ a {
   justify-content: center;
   align-items: center;
 
-  background-color: #eaf2fd;
+  background-color: var(--blue-light);
   padding: 8.2rem 0;
 }
 
@@ -300,8 +304,12 @@ a {
   margin-top: 3.2rem;
 }
 
+.academic-courses-box {
+  flex-shrink: 1;
+}
+
 .academic-courses-list {
-  display: flex;
+  display: grid;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
@@ -311,12 +319,18 @@ a {
 
 .academic-courses-item-img {
   padding: 7.8rem 8.8rem;
-  background-color: #ffffff;
+  background-color: var(--white);
+
+  max-width: 368px;
+  max-height: 286px;
+
+  width: 100%;
+  height: 100%;
 }
 
 .academic-courses-item-img > img {
-  width: 192px;
-  height: 130px;
+  width: 100%;
+  height: 100%;
   object-fit: contain;
 }
 
@@ -423,17 +437,17 @@ a {
   cursor: pointer;
 
   padding: 1.6rem;
-  border: 1px solid #2a7ae4;
+  border: 1px solid var(--blue);
 }
 
 .experience-button-repo {
-  color: #2a7ae4;
-  background-color: #ffffff;
+  color: var(--blue);
+  background-color: var(--white);
 }
 
 .experience-button-demo {
-  color: #ffffff;
-  background-color: #2a7ae4;
+  color: var(--white);
+  background-color: var(--blue);
 }
 
 /* Contact */
@@ -444,7 +458,7 @@ a {
   justify-content: center;
   align-items: center;
 
-  background-color: #eaf2fd;
+  background-color: var(--blue-light);
 }
 
 .contact-container-content {
@@ -529,7 +543,7 @@ a {
 
   font-size: 1.6rem;
   font-weight: 400;
-  color: #a2a2a2;
+  color: var(--gray-light);
 }
 
 .contact-textarea {
@@ -549,7 +563,7 @@ a {
 .contact-textarea:focus + .form-label {
   top: 8px;
   font-size: 1.2rem;
-  color: #2a7ae4;
+  color: var(--blue);
 }
 
 .contact-input:valid + .form-label,
@@ -577,13 +591,13 @@ a {
   font-family: "Raleway";
   font-size: 1.6rem;
   font-weight: 400;
-  color: #ffffff;
+  color: var(--white);
 }
 
 /* Footer */
 .footer {
   padding: 3.2rem 0rem;
-  background-color: #ffffff;
+  background-color: var(--white);
 }
 
 .footer-rodape {
