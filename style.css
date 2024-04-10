@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --cor-de-fundo: #f5f5f5;
+  --cor-de-link: #000;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: var(--cor-de-fundo);
+  font-family: "Raleway";
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--cor-de-link);
+}
+
+section.menu {
+}
+
+section.title {
+}
+
+section.about {
+}
+
+section.hobbies {
+}
+
+section.academic {
+}
+
+section.experience {
+}
+
+section.formcontato {
+}
+
+section.footer {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 425px) {
+}
