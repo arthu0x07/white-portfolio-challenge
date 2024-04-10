@@ -435,3 +435,60 @@ a {
   color: #ffffff;
   background-color: #2a7ae4;
 }
+
+/* Contact */
+.contact-outside-container {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #eaf2fd;
+}
+
+.contact-container-content {
+  flex: 1;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  max-width: 1136px;
+}
+
+.contact-container-content {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-between;
+
+  gap: 1.6rem;
+  padding: 12.9rem 6.5rem;
+}
+
+.contact-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-title {
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 3.757rem;
+}
+
+.contact-subtext {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 1.878rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+
+  gap: 3.2rem;
+}
