@@ -492,3 +492,16 @@ a {
 
   gap: 3.2rem;
 }
+
+/* Footer */
+.footer {
+  padding: 3.2rem 0rem;
+  background-color: #ffffff;
+}
+
+.footer-rodape {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 1.878;
+  text-align: center;
+}
