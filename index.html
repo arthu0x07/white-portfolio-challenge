@@ -407,7 +407,7 @@
 
       <section class="contact-outside-container">
         <div id="contato" class="contact-container-content">
-          <div class="contact-esquerda">
+          <div class="contact-left">
             <img class="contact-img" src="assets/contact_image.png" />
           </div>
 
@@ -420,33 +420,55 @@
             </h3>
 
             <form class="contact-form">
-              <input
-                class="contact-input"
-                type="text"
-                id="nome"
-                placeholder="Nome"
-              />
-              <input
-                class="contact-input"
-                type="email"
-                id="email"
-                placeholder="Email"
-              />
-              <input
-                class="contact-input"
-                type="text"
-                id="assunto"
-                placeholder="Assunto"
-              />
-              <textarea
-                class="contact-textarea"
-                rows="5"
-                cols="40"
-                id="mensagem"
-                name="mensagem"
-                placeholder="Sua mensagem"
-              ></textarea>
-              <button class="contact-button">Enviar mensagem</button>
+              <div class="form-field">
+                <input
+                  type="text"
+                  id="nome"
+                  class="contact-input"
+                  required
+                  placeholder="__"
+                />
+                <label for="nome" class="form-label">Nome</label>
+              </div>
+
+              <div class="form-field">
+                <input
+                  type="email"
+                  id="email"
+                  class="contact-input"
+                  required
+                  placeholder="__"
+                />
+                <label for="email" class="form-label">E-mail</label>
+              </div>
+
+              <div class="form-field">
+                <input
+                  type="text"
+                  id="assunto"
+                  class="contact-input"
+                  required
+                  placeholder="__"
+                />
+                <label for="assunto" class="form-label">Assunto</label>
+              </div>
+
+              <div class="form-field">
+                <textarea
+                  id="mensagem"
+                  class="contact-textarea"
+                  name="mensagem"
+                  rows="5"
+                  required
+                  placeholder="__"
+                  
+                ></textarea>
+                <label for="mensagem" class="form-label">Mensagem</label>
+              </div>
+
+              <button type="submit" class="contact-button">
+                Enviar mensagem
+              </button>
             </form>
           </div>
         </div>
