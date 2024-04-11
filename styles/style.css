@@ -563,6 +563,9 @@ a {
   left: 11px;
   top: calc(50% - 1.6rem / 2);
 
+  display: flex;
+  align-items: center;
+  gap: 1rem;
   background-color: #fff;
 
   transition: 0.3s ease;
@@ -602,6 +605,16 @@ a {
 .contact-input:not(:placeholder-shown) + .form-label,
 .contact-textarea:not(:placeholder-shown) + .form-label {
   top: 8px;
+  font-size: 1.2rem;
+}
+
+.form-field > label > span {
+  color: red;
+  display: none;
+
+  font-weight: 400;
+
+  font-style: italic;
   font-size: 1.2rem;
 }
 
